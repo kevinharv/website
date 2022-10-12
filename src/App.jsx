@@ -1,4 +1,10 @@
-// import { ReactMarkdown } from 'react-markdown/lib/react-markdown'
+/*
+Application Root for site
+Author: Kevin Harvey
+Date: 20221012
+Overview: React Router implemented to control page flow of application. Register new paths by creating additional routes in the app root below.
+*/
+
 import { BrowserRouter, Route, Routes, Outlet } from 'react-router-dom'
 import Blog from './pages/Blog'
 import Home from './pages/Home'
