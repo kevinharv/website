@@ -15,6 +15,17 @@ import React, { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 
 export default function Blog() {
+
+    /*
+        1. Connect to FB
+        2. Call blogs.list() => (file) {
+            // Fetch file
+            // Create MD element
+            // Join to elements
+            // Reference animal farm https://github.com/fireship-io/react-course/blob/main/animalfarm/src/App.jsx
+        }
+    */
+
     const [markdown, setMarkdown] = useState("");
 
     useEffect(() => {
