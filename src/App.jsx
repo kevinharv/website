@@ -10,6 +10,26 @@ import Blog from './pages/Blog'
 import Home from './pages/Home'
 import NoPage from './pages/NoPage'
 
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyDSPsMUDPzwZGgSHBhueLzWtgqEXnf0yZM",
+  authDomain: "personal-site-3c2b5.firebaseapp.com",
+  projectId: "personal-site-3c2b5",
+  storageBucket: "personal-site-3c2b5.appspot.com",
+  messagingSenderId: "632877174472",
+  appId: "1:632877174472:web:feec315d42eec7ac391ffd"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
+
+
 
 function App() {
 
